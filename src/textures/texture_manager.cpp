@@ -18,6 +18,9 @@ std::ostream& operator<<(std::ostream& os, Texture_id id) {
         case Texture_id::DEFAULT                              : return os << "DEFAULT";
 
         case Texture_id::BACKGROUND__GRAVEYARD                : return os << "BACKGROUND__GRAVEYARD";
+        case Texture_id::BACKGROUND__DRAGON_CASTLE            : return os << "BACKGROUND__DRAGON_CASTLE";
+        case Texture_id::BACKGROUND__FOREST                   : return os << "BACKGROUND__FOREST";
+        case Texture_id::BACKGROUND__DRY_GRAVEYARD            : return os << "BACKGROUND__DRY_GRAVEYARD";
 
         case Texture_id::CHARACTER__SIR_BLACKWOOD__ATTACK_1   : return os << "CHARACTER__SIR_BLACKWOOD__ATTACK_1";
         case Texture_id::CHARACTER__SIR_BLACKWOOD__ATTACK_2   : return os << "CHARACTER__SIR_BLACKWOOD__ATTACK_2";
@@ -63,7 +66,10 @@ void Texture_manager::init(bool const smooth_textures) {
         _load(Texture_id::DEFAULT, TEXTURE_PATH__DEFAULT);
 
         // Load backgrounds
-        _load(Texture_id::BACKGROUND__GRAVEYARD, TEXTURE_PATH__BACKGROUND__GRAVEYARD);
+        _load(Texture_id::BACKGROUND__GRAVEYARD,     TEXTURE_PATH__BACKGROUND__GRAVEYARD);
+        _load(Texture_id::BACKGROUND__DRAGON_CASTLE, TEXTURE_PATH__BACKGROUND__DRAGON_CASTLE);
+        _load(Texture_id::BACKGROUND__FOREST,        TEXTURE_PATH__BACKGROUND__FOREST);
+        _load(Texture_id::BACKGROUND__DRY_GRAVEYARD, TEXTURE_PATH__BACKGROUND__DRY_GRAVEYARD);
 
         // Now initialized
         _is_initialized = true;

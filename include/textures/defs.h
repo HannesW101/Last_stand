@@ -20,6 +20,9 @@ enum class Texture_id {
 
     // Backgrounds
     BACKGROUND__GRAVEYARD,
+    BACKGROUND__DRAGON_CASTLE,
+    BACKGROUND__FOREST,
+    BACKGROUND__DRY_GRAVEYARD,
 
     // Characters
     CHARACTER__SIR_BLACKWOOD__ATTACK_1,
@@ -55,7 +58,10 @@ std::string_view const TEXTURE_PATH__DEFAULT = "assets/defaults/Default_texture.
 // Background Texture paths
 // ===================================================================
 
-std::string_view const TEXTURE_PATH__BACKGROUND__GRAVEYARD = "assets/backgrounds/Battleground1/Battleground1.png";
+std::string_view const TEXTURE_PATH__BACKGROUND__GRAVEYARD     = "assets/backgrounds/Battleground1/Battleground1.png";
+std::string_view const TEXTURE_PATH__BACKGROUND__DRAGON_CASTLE = "assets/backgrounds/Battleground1/Battleground2.png";
+std::string_view const TEXTURE_PATH__BACKGROUND__FOREST        = "assets/backgrounds/Battleground1/Battleground3.png";
+std::string_view const TEXTURE_PATH__BACKGROUND__DRY_GRAVEYARD = "assets/backgrounds/Battleground1/Battleground4.png";
 
 // ===================================================================
 // Character Texture paths
