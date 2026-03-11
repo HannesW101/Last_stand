@@ -1,0 +1,3 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\LastStand.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\LastStand.dir/objects.a @CMakeFiles\LastStand.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LastStand.dir/objects.a -Wl,--no-whole-archive -o bin\LastStand.exe -Wl,--out-implib,libLastStand.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LastStand.dir\linkLibs.rsp
