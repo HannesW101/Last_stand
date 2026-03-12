@@ -387,6 +387,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/menus/menu_manager.obj: src/menus/menu_manager.cpp.obj
+.PHONY : src/menus/menu_manager.obj
+
+# target to build an object file
+src/menus/menu_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj
+.PHONY : src/menus/menu_manager.cpp.obj
+
+src/menus/menu_manager.i: src/menus/menu_manager.cpp.i
+.PHONY : src/menus/menu_manager.i
+
+# target to preprocess a source file
+src/menus/menu_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.i
+.PHONY : src/menus/menu_manager.cpp.i
+
+src/menus/menu_manager.s: src/menus/menu_manager.cpp.s
+.PHONY : src/menus/menu_manager.s
+
+# target to generate assembly for a file
+src/menus/menu_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.s
+.PHONY : src/menus/menu_manager.cpp.s
+
 src/textures/texture_manager.obj: src/textures/texture_manager.cpp.obj
 .PHONY : src/textures/texture_manager.obj
 
@@ -442,6 +466,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/menus/menu_manager.obj
+	@echo ... src/menus/menu_manager.i
+	@echo ... src/menus/menu_manager.s
 	@echo ... src/textures/texture_manager.obj
 	@echo ... src/textures/texture_manager.i
 	@echo ... src/textures/texture_manager.s

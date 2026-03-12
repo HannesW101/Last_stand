@@ -301,4 +301,7 @@ CMakeFiles/LastStand.dir/src/main.cpp.obj: \
  C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
  C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
  C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
- C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/sfml-src/include/SFML/System/Sleep.hpp
+ C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/sfml-src/include/SFML/System/Sleep.hpp \
+ C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/menus/menu_manager.h \
+ C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/menus/defs.h \
+ C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/menus/menu.h

@@ -7,6 +7,12 @@
 },
 {
   "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/LastStand.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles\\LastStand.dir\\src\\menus\\menu_manager.cpp.obj -c C:\\Users\\hanne\\Documents\\VSCode_projects\\Last_stand\\src\\menus\\menu_manager.cpp",
+  "file": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/menus/menu_manager.cpp",
+  "output": "CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj"
+},
+{
+  "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/LastStand.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles\\LastStand.dir\\src\\textures\\texture_manager.cpp.obj -c C:\\Users\\hanne\\Documents\\VSCode_projects\\Last_stand\\src\\textures\\texture_manager.cpp",
   "file": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/textures/texture_manager.cpp",
   "output": "CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj"
@@ -1201,14 +1207,14 @@
 },
 {
   "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/vorbis-build/lib",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/vorbisfile.dir/includes_C.rsp -g -o CMakeFiles\\vorbisfile.dir\\vorbisfile.c.obj -c C:\\Users\\hanne\\Documents\\VSCode_projects\\Last_stand\\build\\_deps\\vorbis-src\\lib\\vorbisfile.c",
-  "file": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/vorbis-src/lib/vorbisfile.c",
-  "output": "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.obj"
-},
-{
-  "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/vorbis-build/lib",
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/vorbisenc.dir/includes_C.rsp -g -o CMakeFiles\\vorbisenc.dir\\vorbisenc.c.obj -c C:\\Users\\hanne\\Documents\\VSCode_projects\\Last_stand\\build\\_deps\\vorbis-src\\lib\\vorbisenc.c",
   "file": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/vorbis-src/lib/vorbisenc.c",
   "output": "_deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj"
+},
+{
+  "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/vorbis-build/lib",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/vorbisfile.dir/includes_C.rsp -g -o CMakeFiles\\vorbisfile.dir\\vorbisfile.c.obj -c C:\\Users\\hanne\\Documents\\VSCode_projects\\Last_stand\\build\\_deps\\vorbis-src\\lib\\vorbisfile.c",
+  "file": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build/_deps/vorbis-src/lib/vorbisfile.c",
+  "output": "_deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/vorbisfile.c.obj"
 }
 ]

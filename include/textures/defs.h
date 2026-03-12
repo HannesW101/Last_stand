@@ -59,14 +59,25 @@ std::string_view const TEXTURE_PATH__DEFAULT = "assets/defaults/Default_texture.
 // ===================================================================
 
 std::string_view const TEXTURE_PATH__BACKGROUND__GRAVEYARD     = "assets/backgrounds/Battleground1/Battleground1.png";
-std::string_view const TEXTURE_PATH__BACKGROUND__DRAGON_CASTLE = "assets/backgrounds/Battleground1/Battleground2.png";
-std::string_view const TEXTURE_PATH__BACKGROUND__FOREST        = "assets/backgrounds/Battleground1/Battleground3.png";
-std::string_view const TEXTURE_PATH__BACKGROUND__DRY_GRAVEYARD = "assets/backgrounds/Battleground1/Battleground4.png";
+std::string_view const TEXTURE_PATH__BACKGROUND__DRAGON_CASTLE = "assets/backgrounds/Battleground2/Battleground2.png";
+std::string_view const TEXTURE_PATH__BACKGROUND__FOREST        = "assets/backgrounds/Battleground3/Battleground3.png";
+std::string_view const TEXTURE_PATH__BACKGROUND__DRY_GRAVEYARD = "assets/backgrounds/Battleground4/Battleground4.png";
 
 // ===================================================================
 // Character Texture paths
 // ===================================================================
 
-std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__ATTACK_1 = "assets/characters/sir_blackwood/Attack_1.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__ATTACK_1   = "assets/characters/sir_blackwood/Attack_1.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__ATTACK_2   = "assets/characters/sir_blackwood/Attack_1.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__ATTACK_3   = "assets/characters/sir_blackwood/Attack_1.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__DEAD       = "assets/characters/sir_blackwood/Dead.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__DEFEND     = "assets/characters/sir_blackwood/Defend.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__HURT       = "assets/characters/sir_blackwood/Hurt.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__IDLE       = "assets/characters/sir_blackwood/Idle.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__JUMP       = "assets/characters/sir_blackwood/Jump.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__PROTECT    = "assets/characters/sir_blackwood/Protect.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__RUN_ATTACK = "assets/characters/sir_blackwood/Run_Attack.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__RUN        = "assets/characters/sir_blackwood/Run.png";
+std::string_view const TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__WALK       = "assets/characters/sir_blackwood/Walk.png";
 
 #endif // TEXTURES_DEFS_H

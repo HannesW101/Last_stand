@@ -5,6 +5,9 @@ cmake_policy(SET CMP0009 NEW)
 # HEADER_FILES at CMakeLists.txt:24 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/*.h")
 set(OLD_GLOB
+  "C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/menus/defs.h"
+  "C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/menus/menu.h"
+  "C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/menus/menu_manager.h"
   "C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/textures/defs.h"
   "C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/textures/texture_manager.h"
   "C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/utils/logger.h"
@@ -18,6 +21,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/*.cpp")
 set(OLD_GLOB
   "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/main.cpp"
+  "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/menus/menu_manager.cpp"
   "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/textures/texture_manager.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

@@ -432,11 +432,11 @@ _deps/vorbis-build/lib/clean: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/c
 # All Build rule for target.
 CMakeFiles/LastStand.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 CMakeFiles/LastStand.dir/all: _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-CMakeFiles/LastStand.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 CMakeFiles/LastStand.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
+CMakeFiles/LastStand.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=17 "Built target LastStand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=17,18 "Built target LastStand"
 .PHONY : CMakeFiles/LastStand.dir/all
 
 # Build rule for subdir invocation for target.
@@ -453,7 +453,7 @@ LastStand: CMakeFiles/LastStand.dir/rule
 # codegen rule for target.
 CMakeFiles/LastStand.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=17 "Finished codegen for target LastStand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=17,18 "Finished codegen for target LastStand"
 .PHONY : CMakeFiles/LastStand.dir/codegen
 
 # clean rule for target.
@@ -598,12 +598,12 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: _deps/sfml-
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=52,53,54,55,56,57,58,59,60,61,62,63,64 "Built target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=53,54,55,56,57,58,59,60,61,62,63,64 "Built target sfml-graphics"
 .PHONY : _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 50
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 0
 .PHONY : _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/rule
@@ -615,7 +615,7 @@ sfml-graphics: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/r
 # codegen rule for target.
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=52,53,54,55,56,57,58,59,60,61,62,63,64 "Finished codegen for target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=53,54,55,56,57,58,59,60,61,62,63,64 "Finished codegen for target sfml-graphics"
 .PHONY : _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/codegen
 
 # clean rule for target.
@@ -662,17 +662,17 @@ _deps/freetype-build/CMakeFiles/freetype.dir/clean:
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/ogg-build/CMakeFiles/ogg.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
-_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
+_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51 "Built target sfml-audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52 "Built target sfml-audio"
 .PHONY : _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 0
 .PHONY : _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
@@ -684,7 +684,7 @@ sfml-audio: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
 # codegen rule for target.
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51 "Finished codegen for target sfml-audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51,52 "Finished codegen for target sfml-audio"
 .PHONY : _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/codegen
 
 # clean rule for target.
@@ -699,12 +699,12 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean:
 _deps/ogg-build/CMakeFiles/ogg.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=40 "Built target ogg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=40,41 "Built target ogg"
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/ogg-build/CMakeFiles/ogg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/ogg-build/CMakeFiles/ogg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 0
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/rule
@@ -716,7 +716,7 @@ ogg: _deps/ogg-build/CMakeFiles/ogg.dir/rule
 # codegen rule for target.
 _deps/ogg-build/CMakeFiles/ogg.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=40 "Finished codegen for target ogg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=40,41 "Finished codegen for target ogg"
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/codegen
 
 # clean rule for target.
@@ -736,7 +736,7 @@ _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all: _deps/ogg-build/CMakeFiles
 
 # Build rule for subdir invocation for target.
 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 0
 .PHONY : _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/rule
@@ -764,7 +764,7 @@ _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/all: _deps/ogg-bui
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\flac-build\microbench\CMakeFiles\benchmark_residual.dir\build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\flac-build\microbench\CMakeFiles\benchmark_residual.dir\build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=18,19 "Built target benchmark_residual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=19 "Built target benchmark_residual"
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/all
 
 # Build rule for subdir invocation for target.
@@ -781,7 +781,7 @@ benchmark_residual: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.di
 # codegen rule for target.
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\flac-build\microbench\CMakeFiles\benchmark_residual.dir\build.make _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=18,19 "Finished codegen for target benchmark_residual"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=19 "Finished codegen for target benchmark_residual"
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/codegen
 
 # clean rule for target.
@@ -801,7 +801,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all: _deps/ogg-build/CMakeFiles/ogg
 
 # Build rule for subdir invocation for target.
 _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 0
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/rule
@@ -834,7 +834,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all: _deps/vorbis-build/lib/CMak
 
 # Build rule for subdir invocation for target.
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 0
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/rule
@@ -867,7 +867,7 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all: _deps/vorbis-build/lib/CMa
 
 # Build rule for subdir invocation for target.
 _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles 0
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/rule
