@@ -4,6 +4,7 @@
 
 #include "menus/menu_manager.h"
 #include "utils/logger.h"
+#include "menus/main_menu.h"
 
 // ===================================================================
 // Global overloaded operators
@@ -39,7 +40,7 @@ Menu_manager& Menu_manager::get_instance(sf::RenderWindow& window) {
 void Menu_manager::init() {
 
     // Add all menus to the _menu_map
-    //_menu_map.emplace(Menu_id::MAIN,     std::make_unique<Menu>(_window));
+    _menu_map.emplace(Menu_id::MAIN,     std::make_unique<Main_menu>(_window));
     //_menu_map.emplace(Menu_id::PROFILE,  std::make_unique<Menu>(_window));
     //_menu_map.emplace(Menu_id::SETTINGS, std::make_unique<Menu>(_window));
     //_menu_map.emplace(Menu_id::PLAY,     std::make_unique<Menu>(_window));

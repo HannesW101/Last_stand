@@ -304,4 +304,5 @@ CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/iostream \
  C:/msys64/ucrt64/include/c++/14.2.0/mutex \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_lock.h \
- C:/msys64/ucrt64/include/c++/14.2.0/source_location
+ C:/msys64/ucrt64/include/c++/14.2.0/source_location \
+ C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/menus/main_menu.h

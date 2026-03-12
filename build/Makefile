@@ -363,6 +363,30 @@ vorbisfile/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\vorbis-build\lib\CMakeFiles\vorbisfile.dir\build.make _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/build
 .PHONY : vorbisfile/fast
 
+src/fonts/font_manager.obj: src/fonts/font_manager.cpp.obj
+.PHONY : src/fonts/font_manager.obj
+
+# target to build an object file
+src/fonts/font_manager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/fonts/font_manager.cpp.obj
+.PHONY : src/fonts/font_manager.cpp.obj
+
+src/fonts/font_manager.i: src/fonts/font_manager.cpp.i
+.PHONY : src/fonts/font_manager.i
+
+# target to preprocess a source file
+src/fonts/font_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/fonts/font_manager.cpp.i
+.PHONY : src/fonts/font_manager.cpp.i
+
+src/fonts/font_manager.s: src/fonts/font_manager.cpp.s
+.PHONY : src/fonts/font_manager.s
+
+# target to generate assembly for a file
+src/fonts/font_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/fonts/font_manager.cpp.s
+.PHONY : src/fonts/font_manager.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -386,6 +410,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/menus/main_menu.obj: src/menus/main_menu.cpp.obj
+.PHONY : src/menus/main_menu.obj
+
+# target to build an object file
+src/menus/main_menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj
+.PHONY : src/menus/main_menu.cpp.obj
+
+src/menus/main_menu.i: src/menus/main_menu.cpp.i
+.PHONY : src/menus/main_menu.i
+
+# target to preprocess a source file
+src/menus/main_menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.i
+.PHONY : src/menus/main_menu.cpp.i
+
+src/menus/main_menu.s: src/menus/main_menu.cpp.s
+.PHONY : src/menus/main_menu.s
+
+# target to generate assembly for a file
+src/menus/main_menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.s
+.PHONY : src/menus/main_menu.cpp.s
 
 src/menus/menu_manager.obj: src/menus/menu_manager.cpp.obj
 .PHONY : src/menus/menu_manager.obj
@@ -463,9 +511,15 @@ help:
 	@echo ... vorbis
 	@echo ... vorbisenc
 	@echo ... vorbisfile
+	@echo ... src/fonts/font_manager.obj
+	@echo ... src/fonts/font_manager.i
+	@echo ... src/fonts/font_manager.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/menus/main_menu.obj
+	@echo ... src/menus/main_menu.i
+	@echo ... src/menus/main_menu.s
 	@echo ... src/menus/menu_manager.obj
 	@echo ... src/menus/menu_manager.i
 	@echo ... src/menus/menu_manager.s

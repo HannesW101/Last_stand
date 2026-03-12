@@ -23,6 +23,7 @@ enum class Texture_id {
     BACKGROUND__DRAGON_CASTLE,
     BACKGROUND__FOREST,
     BACKGROUND__DRY_GRAVEYARD,
+    BACKGROUND__MAIN_MENU,
 
     // Characters
     CHARACTER__SIR_BLACKWOOD__ATTACK_1,
@@ -36,8 +37,8 @@ enum class Texture_id {
     CHARACTER__SIR_BLACKWOOD__PROTECT,
     CHARACTER__SIR_BLACKWOOD__RUN_ATTACK,
     CHARACTER__SIR_BLACKWOOD__RUN,
-    CHARACTER__SIR_BLACKWOOD__WALK
-};
+    CHARACTER__SIR_BLACKWOOD__WALK,
+}; std::ostream& operator<<(std::ostream& os, Texture_id id);
 
 // ===================================================================
 // Structs
@@ -46,7 +47,7 @@ enum class Texture_id {
 struct Texture {
 
     sf::Texture texture;
-}; std::ostream& operator<<(std::ostream& os, Texture_id id);
+};
 
 // ===================================================================
 // Default Texture paths
@@ -62,6 +63,7 @@ std::string_view const TEXTURE_PATH__BACKGROUND__GRAVEYARD     = "assets/backgro
 std::string_view const TEXTURE_PATH__BACKGROUND__DRAGON_CASTLE = "assets/backgrounds/Battleground2/Battleground2.png";
 std::string_view const TEXTURE_PATH__BACKGROUND__FOREST        = "assets/backgrounds/Battleground3/Battleground3.png";
 std::string_view const TEXTURE_PATH__BACKGROUND__DRY_GRAVEYARD = "assets/backgrounds/Battleground4/Battleground4.png";
+std::string_view const TEXTURE_PATH__BACKGROUND__MAIN_MENU     = "assets/backgrounds/MainMenu/Graveyard.png";
 
 // ===================================================================
 // Character Texture paths

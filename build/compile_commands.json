@@ -1,9 +1,21 @@
 [
 {
   "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/LastStand.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles\\LastStand.dir\\src\\fonts\\font_manager.cpp.obj -c C:\\Users\\hanne\\Documents\\VSCode_projects\\Last_stand\\src\\fonts\\font_manager.cpp",
+  "file": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/fonts/font_manager.cpp",
+  "output": "CMakeFiles/LastStand.dir/src/fonts/font_manager.cpp.obj"
+},
+{
+  "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/LastStand.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles\\LastStand.dir\\src\\main.cpp.obj -c C:\\Users\\hanne\\Documents\\VSCode_projects\\Last_stand\\src\\main.cpp",
   "file": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/main.cpp",
   "output": "CMakeFiles/LastStand.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/LastStand.dir/includes_CXX.rsp -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles\\LastStand.dir\\src\\menus\\main_menu.cpp.obj -c C:\\Users\\hanne\\Documents\\VSCode_projects\\Last_stand\\src\\menus\\main_menu.cpp",
+  "file": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/menus/main_menu.cpp",
+  "output": "CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj"
 },
 {
   "directory": "C:/Users/hanne/Documents/VSCode_projects/Last_stand/build",

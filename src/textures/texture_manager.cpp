@@ -21,6 +21,7 @@ std::ostream& operator<<(std::ostream& os, Texture_id id) {
         case Texture_id::BACKGROUND__DRAGON_CASTLE            : return os << "BACKGROUND__DRAGON_CASTLE";
         case Texture_id::BACKGROUND__FOREST                   : return os << "BACKGROUND__FOREST";
         case Texture_id::BACKGROUND__DRY_GRAVEYARD            : return os << "BACKGROUND__DRY_GRAVEYARD";
+        case Texture_id::BACKGROUND__MAIN_MENU                : return os << "BACKGROUND__MAIN_MENU";
 
         case Texture_id::CHARACTER__SIR_BLACKWOOD__ATTACK_1   : return os << "CHARACTER__SIR_BLACKWOOD__ATTACK_1";
         case Texture_id::CHARACTER__SIR_BLACKWOOD__ATTACK_2   : return os << "CHARACTER__SIR_BLACKWOOD__ATTACK_2";
@@ -70,6 +71,7 @@ void Texture_manager::init(bool const smooth_textures) {
         _load(Texture_id::BACKGROUND__DRAGON_CASTLE, TEXTURE_PATH__BACKGROUND__DRAGON_CASTLE);
         _load(Texture_id::BACKGROUND__FOREST,        TEXTURE_PATH__BACKGROUND__FOREST);
         _load(Texture_id::BACKGROUND__DRY_GRAVEYARD, TEXTURE_PATH__BACKGROUND__DRY_GRAVEYARD);
+        _load(Texture_id::BACKGROUND__MAIN_MENU,     TEXTURE_PATH__BACKGROUND__MAIN_MENU);
 
         // Load characters
         _load(Texture_id::CHARACTER__SIR_BLACKWOOD__ATTACK_1,   TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__ATTACK_1);
@@ -84,6 +86,9 @@ void Texture_manager::init(bool const smooth_textures) {
         _load(Texture_id::CHARACTER__SIR_BLACKWOOD__RUN_ATTACK, TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__RUN_ATTACK);
         _load(Texture_id::CHARACTER__SIR_BLACKWOOD__RUN,        TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__RUN);
         _load(Texture_id::CHARACTER__SIR_BLACKWOOD__WALK,       TEXTURE_PATH__CHARACTERS__SIR_BLACKWOOD__WALK);
+
+        // Load fonts
+
 
         // Now initialized
         _is_initialized = true;
@@ -134,7 +139,7 @@ void Texture_manager::_load(Texture_id const texture_id, std::string_view const 
     if (!t.texture.loadFromFile(texture_path)) {
 
         // Failed to load
-        LOG(ERROR) << "Failed to load texture [" << texture_path << ']';
+        LOG(ERROR) << "Failed to load texture [" << texture_id << ']';
     } else {
         // Loaded successfully
 

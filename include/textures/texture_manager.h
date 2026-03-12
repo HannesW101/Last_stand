@@ -41,6 +41,7 @@ public:
 private:
     // Private singleton constructor
     Texture_manager();
+
     // Default destructor
     ~Texture_manager() = default;
 

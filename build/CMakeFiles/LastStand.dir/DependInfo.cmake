@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/fonts/font_manager.cpp" "CMakeFiles/LastStand.dir/src/fonts/font_manager.cpp.obj" "gcc" "CMakeFiles/LastStand.dir/src/fonts/font_manager.cpp.obj.d"
   "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/main.cpp" "CMakeFiles/LastStand.dir/src/main.cpp.obj" "gcc" "CMakeFiles/LastStand.dir/src/main.cpp.obj.d"
+  "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/menus/main_menu.cpp" "CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj" "gcc" "CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj.d"
   "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/menus/menu_manager.cpp" "CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj" "gcc" "CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj.d"
   "C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/textures/texture_manager.cpp" "CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj" "gcc" "CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj.d"
   )
