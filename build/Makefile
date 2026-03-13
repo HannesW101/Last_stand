@@ -411,6 +411,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/menus/character_selection.obj: src/menus/character_selection.cpp.obj
+.PHONY : src/menus/character_selection.obj
+
+# target to build an object file
+src/menus/character_selection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj
+.PHONY : src/menus/character_selection.cpp.obj
+
+src/menus/character_selection.i: src/menus/character_selection.cpp.i
+.PHONY : src/menus/character_selection.i
+
+# target to preprocess a source file
+src/menus/character_selection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.i
+.PHONY : src/menus/character_selection.cpp.i
+
+src/menus/character_selection.s: src/menus/character_selection.cpp.s
+.PHONY : src/menus/character_selection.s
+
+# target to generate assembly for a file
+src/menus/character_selection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LastStand.dir\build.make CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.s
+.PHONY : src/menus/character_selection.cpp.s
+
 src/menus/main_menu.obj: src/menus/main_menu.cpp.obj
 .PHONY : src/menus/main_menu.obj
 
@@ -517,6 +541,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/menus/character_selection.obj
+	@echo ... src/menus/character_selection.i
+	@echo ... src/menus/character_selection.s
 	@echo ... src/menus/main_menu.obj
 	@echo ... src/menus/main_menu.i
 	@echo ... src/menus/main_menu.s

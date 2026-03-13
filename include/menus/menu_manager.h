@@ -45,7 +45,7 @@ public:
 
     // Tells the current menu to handle events
     // and does not care how it handles them or what is handled
-    void handle_events(std::optional<sf::Event> const event);
+    void handle_events(std::optional<sf::Event> const& event);
 
     // Tells the current menu to handle animations by passing the delta time
     // for this main game loop iterations. And does not care how it handles
@@ -60,8 +60,7 @@ private:
 
     std::unordered_map<Menu_id, std::unique_ptr<Menu>> _menu_map;
     Menu_id                                            _curr_menu;
-
-    sf::RenderWindow& _window;
+    sf::RenderWindow&                                  _window;
 };
 
 #endif // MENUS_MANAGER_H

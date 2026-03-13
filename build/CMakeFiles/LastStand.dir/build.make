@@ -101,11 +101,26 @@ CMakeFiles/LastStand.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LastStand.dir/src/main.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hanne\Documents\VSCode_projects\Last_stand\src\main.cpp -o CMakeFiles\LastStand.dir\src\main.cpp.s
 
+CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj: CMakeFiles/LastStand.dir/flags.make
+CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj: CMakeFiles/LastStand.dir/includes_CXX.rsp
+CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj: C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/menus/character_selection.cpp
+CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj: CMakeFiles/LastStand.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj -MF CMakeFiles\LastStand.dir\src\menus\character_selection.cpp.obj.d -o CMakeFiles\LastStand.dir\src\menus\character_selection.cpp.obj -c C:\Users\hanne\Documents\VSCode_projects\Last_stand\src\menus\character_selection.cpp
+
+CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hanne\Documents\VSCode_projects\Last_stand\src\menus\character_selection.cpp > CMakeFiles\LastStand.dir\src\menus\character_selection.cpp.i
+
+CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hanne\Documents\VSCode_projects\Last_stand\src\menus\character_selection.cpp -o CMakeFiles\LastStand.dir\src\menus\character_selection.cpp.s
+
 CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj: CMakeFiles/LastStand.dir/flags.make
 CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj: CMakeFiles/LastStand.dir/includes_CXX.rsp
 CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj: C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/menus/main_menu.cpp
 CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj: CMakeFiles/LastStand.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj -MF CMakeFiles\LastStand.dir\src\menus\main_menu.cpp.obj.d -o CMakeFiles\LastStand.dir\src\menus\main_menu.cpp.obj -c C:\Users\hanne\Documents\VSCode_projects\Last_stand\src\menus\main_menu.cpp
 
 CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.i: cmake_force
@@ -120,7 +135,7 @@ CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj: CMakeFiles/LastStand.di
 CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj: CMakeFiles/LastStand.dir/includes_CXX.rsp
 CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj: C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/menus/menu_manager.cpp
 CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj: CMakeFiles/LastStand.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj -MF CMakeFiles\LastStand.dir\src\menus\menu_manager.cpp.obj.d -o CMakeFiles\LastStand.dir\src\menus\menu_manager.cpp.obj -c C:\Users\hanne\Documents\VSCode_projects\Last_stand\src\menus\menu_manager.cpp
 
 CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.i: cmake_force
@@ -135,7 +150,7 @@ CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj: CMakeFiles/LastSt
 CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj: CMakeFiles/LastStand.dir/includes_CXX.rsp
 CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj: C:/Users/hanne/Documents/VSCode_projects/Last_stand/src/textures/texture_manager.cpp
 CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj: CMakeFiles/LastStand.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj -MF CMakeFiles\LastStand.dir\src\textures\texture_manager.cpp.obj.d -o CMakeFiles\LastStand.dir\src\textures\texture_manager.cpp.obj -c C:\Users\hanne\Documents\VSCode_projects\Last_stand\src\textures\texture_manager.cpp
 
 CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.i: cmake_force
@@ -150,6 +165,7 @@ CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.s: cmake_force
 LastStand_OBJECTS = \
 "CMakeFiles/LastStand.dir/src/fonts/font_manager.cpp.obj" \
 "CMakeFiles/LastStand.dir/src/main.cpp.obj" \
+"CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj" \
 "CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj" \
 "CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj" \
 "CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj"
@@ -159,6 +175,7 @@ LastStand_EXTERNAL_OBJECTS =
 
 bin/LastStand.exe: CMakeFiles/LastStand.dir/src/fonts/font_manager.cpp.obj
 bin/LastStand.exe: CMakeFiles/LastStand.dir/src/main.cpp.obj
+bin/LastStand.exe: CMakeFiles/LastStand.dir/src/menus/character_selection.cpp.obj
 bin/LastStand.exe: CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj
 bin/LastStand.exe: CMakeFiles/LastStand.dir/src/menus/menu_manager.cpp.obj
 bin/LastStand.exe: CMakeFiles/LastStand.dir/src/textures/texture_manager.cpp.obj
@@ -170,7 +187,7 @@ bin/LastStand.exe: _deps/sfml-build/lib/libfreetyped.a
 bin/LastStand.exe: CMakeFiles/LastStand.dir/linkLibs.rsp
 bin/LastStand.exe: CMakeFiles/LastStand.dir/objects1.rsp
 bin/LastStand.exe: CMakeFiles/LastStand.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bin\LastStand.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\hanne\Documents\VSCode_projects\Last_stand\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable bin\LastStand.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LastStand.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

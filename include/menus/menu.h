@@ -22,6 +22,10 @@ public:
     Menu(sf::RenderWindow& window)
         : _window(window)
         , _pending_menu_change(std::nullopt)
+        , _something_is_hovered(false)
+        , _window_size({0u, 0u})
+        , _cursor_arrow(sf::Cursor::Type::Arrow)
+        , _cursor_hand(sf::Cursor::Type::Hand)
     {}
 
     // Default destructor
@@ -32,7 +36,7 @@ public:
     virtual void draw() = 0;
 
     // Handle any events that are needed
-    virtual void handle_events(std::optional<sf::Event> const event) = 0;
+    virtual void handle_events(std::optional<sf::Event> const& event) = 0;
 
     // Handle any animations that are needed
     virtual void handle_animations(float const dt) = 0;
@@ -48,8 +52,25 @@ public:
     void clear_pending_menu_change() { _pending_menu_change.reset(); }
 protected:
 
+    // Check whether the mouse is currently within an objects globl bounds (hovering)
+    bool _is_mouse_hovering(sf::FloatRect const& global_bounds) {
+
+        // Get the mouse position on the current window
+        sf::Vector2i const mouse_pos_pixels = sf::Mouse::getPosition(_window);
+
+        // Map mouse pixel co-ordinates to world co-ordinates
+        sf::Vector2f const mouse_pos = _window.mapPixelToCoords(mouse_pos_pixels);
+
+        // Check whether the mouse is within our objects bounds
+        return global_bounds.contains(mouse_pos);
+    }
+
     sf::RenderWindow&      _window;
     std::optional<Menu_id> _pending_menu_change;
+    bool                   _something_is_hovered;
+    sf::Vector2u           _window_size;
+    sf::Cursor             _cursor_arrow;
+    sf::Cursor             _cursor_hand;
 };
 
 #endif // MENUS_MENU_H

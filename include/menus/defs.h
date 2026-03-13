@@ -16,8 +16,9 @@ enum class Menu_id {
     MAIN,
     SETTINGS,
     PROFILE,
-    PLAY,
-    COMBAT
+    SINGLE_PLAYER,
+    MULTI_PLAYER,
+    CHARACTER_SELECTION
 }; std::ostream& operator<<(std::ostream& os, Menu_id id);
 
 #endif // MENUS_DEFS_H

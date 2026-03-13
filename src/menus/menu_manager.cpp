@@ -5,6 +5,7 @@
 #include "menus/menu_manager.h"
 #include "utils/logger.h"
 #include "menus/main_menu.h"
+#include "menus/character_selection_menu.h"
 
 // ===================================================================
 // Global overloaded operators
@@ -15,11 +16,12 @@ std::ostream& operator<<(std::ostream& os, Menu_id id) {
 
     switch (id) {
 
-        case Menu_id::MAIN     : return os << "MAIN";
-        case Menu_id::SETTINGS : return os << "SETTINGS";
-        case Menu_id::PROFILE  : return os << "PROFILE";
-        case Menu_id::PLAY     : return os << "PLAY";
-        case Menu_id::COMBAT   : return os << "COMBAT";
+        case Menu_id::MAIN               : return os << "MAIN";
+        case Menu_id::SETTINGS           : return os << "SETTINGS";
+        case Menu_id::PROFILE            : return os << "PROFILE";
+        case Menu_id::SINGLE_PLAYER      : return os << "SINGLE_PLAYER";
+        case Menu_id::MULTI_PLAYER       : return os << "MULTI_PLAYER";
+        case Menu_id::CHARACTER_SELECTION: return os << "CHARACTER_SELECTION";
 
         default                : return os << "UNKNOWN_MENU_ID";
     }
@@ -40,14 +42,14 @@ Menu_manager& Menu_manager::get_instance(sf::RenderWindow& window) {
 void Menu_manager::init() {
 
     // Add all menus to the _menu_map
-    _menu_map.emplace(Menu_id::MAIN,     std::make_unique<Main_menu>(_window));
-    //_menu_map.emplace(Menu_id::PROFILE,  std::make_unique<Menu>(_window));
-    //_menu_map.emplace(Menu_id::SETTINGS, std::make_unique<Menu>(_window));
-    //_menu_map.emplace(Menu_id::PLAY,     std::make_unique<Menu>(_window));
-    //_menu_map.emplace(Menu_id::COMBAT,   std::make_unique<Menu>(_window));
+    _menu_map.emplace(Menu_id::MAIN,                std::make_unique<Main_menu>               (_window));
+    _menu_map.emplace(Menu_id::CHARACTER_SELECTION, std::make_unique<Character_selection_menu>(_window));
 
     // Set the default starting menu
     _curr_menu = Menu_id::MAIN;
+
+    // Log success
+    LOG(INFO) << "Initialized Menu_manager and loaded all menus successfully";
 }
 
 // ===================================================================
@@ -110,7 +112,7 @@ void Menu_manager::draw() {
 }
 
 // ===================================================================
-void Menu_manager::handle_events(std::optional<sf::Event> const event) {
+void Menu_manager::handle_events(std::optional<sf::Event> const& event) {
 
     // Search the _menu_map for the current menu
     auto it = _menu_map.find(_curr_menu);

@@ -303,4 +303,10 @@ CMakeFiles/LastStand.dir/src/menus/main_menu.cpp.obj: \
  C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/textures/texture_manager.h \
  C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/textures/defs.h \
  C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/fonts/font_manager.h \
- C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/fonts/defs.h
+ C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/fonts/defs.h \
+ C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/colors/colors.h \
+ C:/Users/hanne/Documents/VSCode_projects/Last_stand/include/utils/logger.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/14.2.0/mutex \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/unique_lock.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/source_location
